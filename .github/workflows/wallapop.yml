@@ -3,7 +3,7 @@ name: Vigilar Wallapop
 on:
   schedule:
     # Cada 10 minutos. El mínimo que permite GitHub es 5 ('*/5 * * * *').
-    - cron: '*/10 * * * *'
+    - cron: '*/15 * * * *'
   # Permite lanzarlo a mano desde la pestaña Actions con un botón.
   workflow_dispatch:
 
